@@ -11,7 +11,22 @@ ReactDOM.render(
   document.getElementById('root')
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
+
+function FixedAnime(){
+  var headerH = $('#header').outerHeight(true);
+  var scroll = $(window).scrollTop();
+  if (scroll >= headerH) {
+    $('#header').addClass('fixed');
+  } else {
+    $('#header').removeClass('fixed');
+  }
+}
+
+$(window).scroll(function () {
+  FixedAnime();
+});
+
+$(window).on('load', function () {
+  FixedAnime();
+});
