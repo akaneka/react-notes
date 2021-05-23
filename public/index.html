@@ -12,6 +12,7 @@
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
     <title>React App</title>
+    <link rel="stylesheet" type="text/css" href="../src/index.css">
   </head>
 
   <body>
@@ -23,11 +24,10 @@
       <a href="index.html">akaneka</a>
     </div>
     <nav>
-      <ul class="global-nav">
-      <li><a href="index.html">About Me</a></li>
-      <li><a href="index.html">Works</a></li>
-      <li><a href="index.html">Notes</a></li>
-      <li><a href="index.html">Contact</a></li>
+      <ul id="global-nav">
+      <li><a href="index.html">About</a></li>
+      <li><a href="index.html">3行でわかるReact</a></li>
+      <li><a href="index.html">Reactの第一歩におすすめ教材診断</a></li>
       </ul>
     </nav>
   </header>
@@ -40,6 +40,11 @@
         <h1>React</h1>
         <h2 class="icon">About</h2>
         <p>このページは、フロントエンド初学者によるReactの説明ページです。<br>ReactとjQueryを使ったWebページ作成を主目的として作成しています。<br>※現在作成中です</p>
+        <p>✅　Reactがgh-pagesで動くようにする</p>
+        <p>✅　jQueryでヘッダーの固定</p>
+        <p>【TODO】jQueryでレスポンシブ対応</p>
+        <p>【TODO】Reactで診断を実装する</p>
+        <p>【TODO】Reactでダークモードの実装</p>
         <section class="profile clearfix">
           <div class="profile-txt">
             <h2 class="icon">3行でわかるReact</h2>
@@ -52,11 +57,8 @@
         </section>
         <section class="career">
           <h2 class="icon">Reactの第一歩におすすめ教材診断</h2>
-          <p>【TODO】Reactが動くようにする</p>
           <div id="shindan-root">
-            <p>【TODO】REACTで診断を実装する</p>
           </div>
-          <p>【TODO】ダークモードの実装</p>
         </section>
       </div>
     </div>
@@ -70,6 +72,6 @@
   <!--  フッター終わり  -->
 
   <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-  <script src="js/header.js"></script>
+  <script src="../js/header.js"></script>
 </body>
 </html>
