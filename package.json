@@ -2,7 +2,7 @@
   "name": "react-notes",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://ninjin-k.github.io/react-notes",
+  "homepage": "https://akaneka.github.io/react-notes",
   "dependencies": {
     "@testing-library/jest-dom": "^5.12.0",
     "@testing-library/react": "^11.2.7",
