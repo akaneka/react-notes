@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import './App.css'
 
-class App extends React {
+class App extends Component {
   data = []
 
   area = {
