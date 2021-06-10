@@ -30,11 +30,11 @@ class App extends Component {
   draw(d) {
     let s = {
       position: "absolute",
-      left: (d.x-25) + "px",
-      top: (d.y-25) + "px",
+      left: (d.x - 25) + "px",
+      top: (d.y - 25) + "px",
       width:"50px",
       height:"50px",
-      backgroundColor: "66f3"
+      backgroundColor: "#66f3"
     }
     return <div style={s}></div>
   }
