@@ -82,12 +82,12 @@ section {
 /* 表の装飾 */
 th {
   background-color: #f0f0f0;
-  padding: 12px 0 12px 12px;
+  padding: 12px;
   border: 1px solid #cccccc;
 }
 
 td {
-  padding: 12px 0 12px 12px;
+  padding: 12px;
   border: 1px solid #cccccc;
 }
 
