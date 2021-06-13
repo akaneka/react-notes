@@ -75,6 +75,10 @@ header {
   margin: 0 auto;
 }
 
+section {
+  margin-bottom: 35px;
+}
+
 /*フッター*/
 footer {
   text-align: center;
