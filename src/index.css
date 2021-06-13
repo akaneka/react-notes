@@ -108,3 +108,7 @@ footer {
   padding: 20px 0;
   background-color: #767671;
 }
+
+.scrollgress {
+  z-index: 3;
+}
