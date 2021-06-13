@@ -42,7 +42,7 @@ class App extends Component {
   render() {
     return (
       <div>
-        <h1 className="bg-primary text-white display-4">React</h1>
+        <h2 className="bg-primary text-white display-4">React</h2>
         <div className="container">
           <p>このエリアはReact、JSXを用いて作成しています。<br />四角のエリア内をクリックすると、小さな四角形を描画します。</p>
           <div style={this.area} onClick={this.doAction}>
