@@ -70,6 +70,10 @@ header {
   font-family: 'Bitter', serif;
 }
 
+#wrap {
+  height: 2000px; /* scrollgress */
+}
+
 h1 {
   margin-bottom: 60px;
 }
