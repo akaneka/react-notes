@@ -1,15 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <title>React App</title>
-    <link rel="stylesheet" type="text/css" href="../src/index.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-        crossorigin="anonymous">
-    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
-  </head>
 
-  <body>
+<head>
+  <meta charset="utf-8" />
+  <title>React App</title>
+  <link rel="stylesheet" type="text/css" href="../src/index.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    crossorigin="anonymous">
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+</head>
+
+<body>
   <noscript>You need to enable JavaScript to run this app.</noscript>
 
   <!--  ヘッダー始まり  -->
@@ -19,51 +20,56 @@
     </div>
     <nav>
       <ul id="global-nav">
-      <li><a href="index.html">About</a></li>
-      <li><a href="index.html">3行でわかるReact</a></li>
-      <li><a href="index.html">Reactの第一歩におすすめ教材診断</a></li>
+        <li><a href="index.html">About</a></li>
+        <li><a href="index.html">3行でわかるReact</a></li>
+        <li><a href="index.html">Reactの第一歩におすすめ教材診断</a></li>
       </ul>
     </nav>
   </header>
   <!--  ヘッダー終わり  -->
-    
+
   <!--  コンテンツ始まり  -->
   <div id="wrap">
     <div class="content">
       <div class="main-center">
         <h1>React</h1>
-        <h2 class="icon">About</h2>
-        <p>このページは、フロントエンド初学者によるReactの説明ページです。<br>ReactとjQueryを使ったWebページ作成を主目的として作成しています。<br>※現在作成中です</p>
-        <p>✅　Reactがgh-pagesで動くようにする</p>
-        <p>✅　jQueryでヘッダーの固定</p>
-        <p>【TODO】jQueryでレスポンシブ対応</p>
-        <p>【TODO】Reactで診断を実装する</p>
-        <section class="profile clearfix">
-          <div class="profile-txt">
-            <h2 class="icon">3行でわかるReact</h2>
-            <ul>
-              <li>ReactとはJavaScriptのフレームワークです。Facebookによって作成されたオープンソースプロジェクトです。</li>
-              <li>ReactはMVCアプリケーション（Model View Controller）のビューレイヤーです。JSXというJavaScriptの拡張構文を使用します。</li>
-              <li>Reactの大きな特徴は、仮想DOMを構築して通常のDOM操作よりも高速に、かつ再利用可能なコンポーネントを作成して効率的に、UIを構築できることです。</li>
-            </ul>
-          </div>
+
+        <section class="about">
+          <h2 class="icon">About</h2>
+          <p>このページは、フロントエンド初学者によるReactの説明ページです。<br>ReactとjQueryを使ったWebページ作成を主目的として作成しています。<br>※現在作成中です</p>
+          <p>✅　Reactがgh-pagesで動くようにする</p>
+          <p>✅　jQueryでヘッダーの固定</p>
+          <p>【TODO】jQueryでレスポンシブ対応</p>
+          <p>✅　Reactで診断を実装する</p>
         </section>
-        <section class="career">
-          <h2 class="icon">Reactの第一歩におすすめ教材診断</h2>
-          <div id="shindan-root"></div> // ここだけReact使用
+
+        <section class="summary">
+          <h2 class="icon">3行でわかるReact</h2>
+          <ul>
+            <li>ReactとはJavaScriptのフレームワークです。Facebookによって作成されたオープンソースプロジェクトです。</li>
+            <li>ReactはMVCアプリケーション（Model View Controller）のビューレイヤーです。JSXというJavaScriptの拡張構文を使用します。</li>
+            <li>Reactの大きな特徴は、仮想DOMを構築して通常のDOM操作よりも高速に、かつ再利用可能なコンポーネントを作成して効率的に、UIを構築できることです。</li>
+          </ul>
+        </section>
+        
+        <section class="example">
+          <h2 class="icon">Reactの使用例</h2>
+          <div id="root"></div>
         </section>
       </div>
     </div>
   </div>
   <!--  コンテンツ終わり  -->
-    
+
   <!--  フッター始まり  -->
   <footer>
     <small>(C)2021 akaneka</small>
   </footer>
   <!--  フッター終わり  -->
 
-  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
   <script src="../js/header.js"></script>
 </body>
+
 </html>
