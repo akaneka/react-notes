@@ -70,6 +70,10 @@ header {
   font-family: 'Bitter', serif;
 }
 
+h1 {
+  margin-bottom: 60px;
+}
+
 .content {
   width: 960px;
   margin: 0 auto;
