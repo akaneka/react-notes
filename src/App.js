@@ -34,7 +34,7 @@ class App extends Component {
       top: (d.y - 25) + "px",
       width:"50px",
       height:"50px",
-      backgroundColor: "#66f3"
+      backgroundColor: "#f603"
     }
     return <div style={s}></div>
   }
@@ -44,7 +44,7 @@ class App extends Component {
       <div>
         <h1 className="bg-primary text-white display-4">React</h1>
         <div className="container">
-          <p className="subtitle">Draw rectangles.</p>
+          <p>このエリアはReact、JSXを用いて作成しています。<br />四角のエリア内をクリックすると、小さな四角形を描画します。</p>
           <div style={this.area} onClick={this.doAction}>
             {this.data.map((value)=>this.draw(value))}
           </div>
