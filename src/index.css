@@ -63,7 +63,26 @@ header {
 }
 
 h1 {
+  font-family: 'Bitter', serif;
+  font-size: 36px;
   margin-bottom: 60px;
+}
+
+h2 {
+  font-family: 'Bitter', serif;
+  font-size: 24px;
+}
+
+h3 {
+  font-family: 'Bitter', serif;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.icon:before {
+  content: "";
+  padding-right: 10px;
+  border-left: 7px solid #9cb4a4;
 }
 
 .content {
