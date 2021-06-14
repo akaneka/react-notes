@@ -1,3 +1,9 @@
+# はじめに
+
+このリポジトリのデプロイ結果は以下から確認できます。
+https://akaneka.github.io/react-notes/index.html
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
