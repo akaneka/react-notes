@@ -37,9 +37,6 @@ header {
 }
 
 #header {
-  position: fixed;
-  z-index: 2;
-  top: 0;
   height: 70px;
   justify-content: center;
   align-items: center;
@@ -47,18 +44,10 @@ header {
   padding: 20px;
 }
 
-#header.fixed {
-  position: fixed;
-  z-index: 999;
-  top: 0;
-  left: 0;
-}
-
 .logo {
   float: left;
   font-size: 20px;
 }
-
 
 #global-nav {
   float: right;
@@ -71,10 +60,6 @@ header {
   font-size: 15px;
   list-style: none;
   font-family: 'Bitter', serif;
-}
-
-#wrap {
-  height: 2000px; /* scrollgress */
 }
 
 h1 {
@@ -114,9 +99,4 @@ footer {
   color: #ffffff;
   padding: 20px 0;
   background-color: #767671;
-}
-
-.scrollgress {
-  z-index: 3;
-  top: 70px!important;
 }
