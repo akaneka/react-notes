@@ -37,6 +37,9 @@ header {
 }
 
 #header {
+  position: fixed;
+  z-index: 2;
+  top: 0;
   height: 70px;
   justify-content: center;
   align-items: center;
@@ -115,4 +118,5 @@ footer {
 
 .scrollgress {
   z-index: 3;
+  top: 70px!important;
 }
