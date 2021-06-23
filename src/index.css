@@ -5,10 +5,6 @@ p,h1,h2,h3,h4,h5,h6 {
   margin-top: 0;
 }
 
-img {
-  vertical-align: bottom;
-}
-
 ul {
   margin: 0;
   padding: 0;
@@ -99,14 +95,12 @@ section {
 }
 
 /* 表の装飾 */
-th {
+th, td {
   background-color: #f0f0f0;
   padding: 12px;
-  border: 1px solid #cccccc;
 }
 
-td {
-  padding: 12px;
+th {
   border: 1px solid #cccccc;
 }
 
