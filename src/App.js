@@ -46,7 +46,7 @@ class App extends Component {
         <div className="container">
           <p>このエリアはReact、JSXを用いて作成しています。<br />四角のエリア内をクリックすると、小さな四角形を描画します。</p>
           <div style={this.area} onClick={this.doAction}>
-            {this.data.map((value)=>this.draw(value))}
+            {this.draw(this.data)}
           </div>
         </div>
       </div>
