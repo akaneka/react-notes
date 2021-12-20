@@ -21,9 +21,7 @@ class App extends Component {
 
   // クリック時に四角を描写するメソッド
   doAction(e) {
-    let x = e.pageX
-    let y = e.pageY
-    this.data.push({x:x, y:y})
+    this.data.push({x:e.pageX, y:e.pageY})
     this.setState({
       list:this.data
     })
