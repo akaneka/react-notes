@@ -4,6 +4,7 @@ import './App.css'
 class App extends Component {
   data = []
 
+  // 四角の描画エリア
   area = {
     width: "500px",
     height: "500px",
@@ -18,6 +19,7 @@ class App extends Component {
     this.doAction = this.doAction.bind(this)
   }
 
+  // クリック時に四角を描写するメソッド
   doAction(e) {
     let x = e.pageX
     let y = e.pageY
@@ -27,6 +29,7 @@ class App extends Component {
     })
   }
 
+  // 描写する四角のビジュアルを定義するメソッド
   draw(d) {
     let s = {
       position: "absolute",
