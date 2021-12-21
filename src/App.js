@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import './App.css'
 
 class App extends Component {
   data = []
@@ -9,6 +8,13 @@ class App extends Component {
     width: "500px",
     height: "500px",
     border: "1px solid blue"
+  }
+
+  rectangle = {
+    position: "absolute",
+    width: "50px",
+    height: "50px",
+    backgroundColor: "#f603"
   }
 
   constructor(props) {
@@ -33,7 +39,7 @@ class App extends Component {
       left: (d.x - 25) + "px",
       top: (d.y - 25) + "px"
     }
-    return <div className="sikaku" style={s}></div>
+    return <div style={rectangle, s}></div>
   }
 
   render() {
