@@ -39,7 +39,7 @@ class App extends Component {
       left: (d.x - 25) + "px",
       top: (d.y - 25) + "px"
     }
-    return <div style={rectangle, s}></div>
+    return <div style={this.rectangle, s}></div>
   }
 
   render() {
