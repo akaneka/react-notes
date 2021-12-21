@@ -33,7 +33,7 @@ class App extends Component {
       left: (d.x - 25) + "px",
       top: (d.y - 25) + "px"
     }
-    return <div className="square" style={s}></div>
+    return <div className="rectangle" style={s}></div>
   }
 
   render() {
