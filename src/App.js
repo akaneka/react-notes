@@ -10,13 +10,6 @@ class App extends Component {
     border: "1px solid blue"
   }
 
-  rectangle = {
-    position: "absolute",
-    width: "50px",
-    height: "50px",
-    backgroundColor: "#f603"
-  }
-
   constructor(props) {
     super(props)
     this.state = {
@@ -36,10 +29,14 @@ class App extends Component {
   // 描写する四角のビジュアルを定義するメソッド
   draw(d) {
     let s = {
+      position: "absolute",
       left: (d.x - 25) + "px",
-      top: (d.y - 25) + "px"
+      top: (d.y - 25) + "px",
+      width:"50px",
+      height:"50px",
+      backgroundColor: "#f603"
     }
-    return <div style={this.rectangle, s}></div>
+    return <div style={s}></div>
   }
 
   render() {
